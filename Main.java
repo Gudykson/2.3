@@ -8,7 +8,8 @@ class Main {
         double b = rand.nextDouble(upperbound);
         double c = rand.nextDouble(upperbound);
         double d = rand.nextDouble(upperbound);
-        double skw = a*a + b*b + c*c + d*d;
-    System.out.println("suma kwadratow liczb losowych wynosi " + skw);
+        double e = rand.nextDouble(upperbound);
+        double skw = a*a + b*b + c*c + d*d + e*e;
+    System.out.println("suma kwadratow liczb losowych wynosi " + skw + "a= " + a + "b= " + b + "c= " + c + " d= " + d + " e= "+e);
   }
 }

@@ -1,15 +1,15 @@
 import java.util.Random;
 class Main {
   public static void main(String[] args) {
-    
-        Random rand = new Random();
+    double suma = 0;
+    for(int i=0;i<5;i++){
+      Random rand = new Random();
         int upperbound = 101;
-        double a = rand.nextDouble(upperbound);
-        double b = rand.nextDouble(upperbound);
-        double c = rand.nextDouble(upperbound);
-        double d = rand.nextDouble(upperbound);
-        double e = rand.nextDouble(upperbound);
-        double skw = a*a + b*b + c*c + d*d + e*e;
-    System.out.println("suma kwadratow liczb losowych wynosi " + skw + "a= " + a + "b= " + b + "c= " + c + " d= " + d + " e= "+e);
+      double a = rand.nextDouble(upperbound);
+      suma = suma + Math.pow(a,2);
+      
+    }
+
+    System.out.println("suma kwadratow liczb losowych wynosi " + suma);
   }
 }

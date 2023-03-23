@@ -10,6 +10,6 @@ class Main {
       
     }
 
-    System.out.println("suma kwadratow liczb losowych wynosi " + suma);
+    System.out.println("Suma kwadratow 5 liczb losowych w zakresie od 0 do 100 wynosi " + suma);
   }
 }

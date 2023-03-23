@@ -7,9 +7,10 @@ class Main {
         int upperbound = 101;
       double a = rand.nextDouble(upperbound);
       suma = suma + Math.pow(a,2);
+      System.out.println("Wygenerowana liczba nr." + (i + 1) +  ": " + a);
       
     }
 
-    System.out.println("Suma kwadratow 5 liczb losowych w zakresie od 0 do 100 wynosi " + suma);
+    System.out.println("Suma kwadratow tych 5 liczb losowych wynosi " + suma);
   }
 }
